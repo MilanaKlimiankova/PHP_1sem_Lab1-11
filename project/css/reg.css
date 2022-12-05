@@ -1,0 +1,62 @@
+.reg{
+	border-radius: 20px;
+	background-color: #f5e3ff;
+	width: 300px;
+	padding: 5px 20px 30px 20px;
+	margin-left: 430px;
+	box-shadow: 3px 3px 10px 0px rgba(0,0,0, 0.17);
+	transition: all 0.2 ease;
+}
+h2{
+	color: #545454;
+	font-family: Calibri Light;
+	font-size: 22px;
+	text-align: center;
+}
+label{
+	color: #545454;
+	font-family: Calibri Light;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.textarea{
+	margin-top: 5px;
+	border: none;
+	border-radius: 10px;
+	height: 25px;
+	width: 300px;
+	color: #545454;
+	font-family: Calibri Light;
+	font-size: 16px;
+}
+#capcha-image{
+	margin-top: 15px;
+	margin-left: 80px;
+}
+
+.cap{
+	color: #545454;
+	font-family: Calibri Light;
+	font-size: 12px;
+	margin-left: 120px;}
+.submit{
+	height: 40px;
+	width: 200px;
+	color: #545454;
+	font-family: Calibri;
+	font-size: 16px;
+	border-radius: 10px;
+	border:none;
+	transition: all 0.2s ease;
+	background-color: #e8c5fa;
+	margin-left: 10px;
+}
+.submit:hover{
+	background-color: #7897e3;
+}
+.error{
+	color: #eb6767;
+	font-family: Calibri Light;
+	font-size: 10px;
+
+}

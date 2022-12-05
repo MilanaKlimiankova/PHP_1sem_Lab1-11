@@ -1,0 +1,86 @@
+/*окно авторизации-----------------------------------*/
+.reg{
+	border-radius: 20px;
+	background-color: #f5e3ff;
+	height: 290px;
+	width: 300px;
+	padding: 0px 20px 30px 20px;
+	margin-left: 430px;
+	box-shadow: 3px 3px 10px 0px rgba(0,0,0, 0.17);}
+h2{
+	color: #545454; 
+	font-family: Calibri Light;
+	font-size: 22px;
+	text-align: center;
+}
+label{
+	color: #545454; 
+	font-family: Calibri Light;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.textarea{
+	margin-top: 5px;
+	border: none;
+	border-radius: 10px;
+	height: 25px;
+	width: 300px;
+	color: #545454; 
+	font-family: Calibri Light;
+	font-size: 16px;
+}
+.submit{
+	height: 40px;
+	width: 200px;
+	color: #545454;
+	font-family: Calibri;
+	font-size: 16px;
+	border-radius: 10px;
+	border:none;
+	transition: all 0.2s ease;
+	background-color: #e8c5fa;
+	margin-left: 55px;
+}
+.submit:hover{
+	background-color: #7897e3;
+}
+
+/*меню-----------------------------------*/
+ li {
+ list-style-type: none;
+ display: inline;
+ display: block;
+ margin-right: 10px;
+ }
+ .ch{
+ 	background: #e8c5fa;
+	font-family: Calibri Light;
+	border: none; 
+	border-radius: 10px;
+	padding: 5px 10px; 
+	text-decoration: none; 
+	transition: all 0.2s ease;
+	color: #545454; 
+ }
+ .ch:hover{
+ 	background: #7897e3;
+ }
+ ul {
+ font-family: Calibri Light;
+ color: #545454;
+ background-color: #f5e3ff;
+ font-size: 20px;
+ height: 60px;
+ display: flex;
+ justify-content: center;
+
+ margin: 0 0 0 0; 
+ padding: 17px 0 15px 20px; /* Отступ слева в браузере Firefox, Safari, Chrome
+*/
+ }
+ ul#menu li{
+ display:inline-block; /* расположить пункты горизонтально */
+ }
+ a{
+ 	color: #545454;
+ }

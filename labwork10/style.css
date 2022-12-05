@@ -1,0 +1,24 @@
+.c {
+	background: #f5e3ff;
+	font-family: Calibri;
+	border: none; 
+	border-radius: 10px;
+	padding: 10px 20px;
+    margin: 0px 0px;
+	display: inline-block;
+	text-decoration: none; 
+	color: #545454; 
+}
+.c:hover {
+	background: #e8c5fa;
+}
+.title{
+	color: #545454;
+	font-family: Calibri Light;
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+ .menu{
+ margin-top: 50px;
+ }
